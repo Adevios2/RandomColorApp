@@ -49,6 +49,7 @@ extension ColorsTableVC: UITableViewDelegate, UITableViewDataSource {
         }
         cell.backgroundColor = colors[indexPath.row]
         return cell
+        
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
